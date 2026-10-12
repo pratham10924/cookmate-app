@@ -1,0 +1,23 @@
+{
+  "appId": "com.cookmate.ai",
+  "appName": "CookMate AI",
+  "webDir": "public",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 900,
+      "launchAutoHide": true,
+      "backgroundColor": "#14110f",
+      "showSpinner": false
+    },
+    "LocalNotifications": {
+      "iconColor": "#f0a53a"
+    }
+  }
+}

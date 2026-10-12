@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14110f">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CookMate">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>CookMate AI</title>
+<meta name="description" content="CookMate AI: AI-based multilingual voice cooking assistant with hands-free, step-by-step recipe guidance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hind:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css?v=2">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v4M8 21h8"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24" fill="currentColor"><path d="M5 6.2v11.6a1 1 0 0 0 1.55.83L15 13v4.5a1 1 0 0 0 2 0v-11a1 1 0 0 0-2 0V11L6.55 5.37A1 1 0 0 0 5 6.2z"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.2v11.6a1 1 0 0 1-1.55.83L9 13v4.5a1 1 0 0 1-2 0v-11a1 1 0 0 1 2 0V11l8.45-5.63A1 1 0 0 1 19 6.2z"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3c1 4 5 5.5 5 10a5 5 0 0 1-10 0c0-2.5 1.5-3.5 2-5.5.8 1.2 1.5 1.8 2.5 2C11.5 7.5 11 5 12 3z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3M10 16l-4-4 4-4M6 12h10"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="3" width="7" height="8" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="15" width="7" height="6" rx="1.5"/></symbol>
+    <symbol id="i-pan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><ellipse cx="10" cy="13" rx="7.5" ry="3.5"/><path d="M2.5 13v1.5c0 1.9 3.4 3.5 7.5 3.5s7.5-1.6 7.5-3.5V13M17.5 13H22M8 4c-1 1.5 1 2.5 0 4M12 4c-1 1.5 1 2.5 0 4"/></symbol>
+    <symbol id="i-keyboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2.5" y="6" width="19" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></symbol>
+    <symbol id="i-chef" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 14.5V20h10v-5.5M7 14.5a4 4 0 0 1-1.2-7.8A4.5 4.5 0 0 1 12 4a4.5 4.5 0 0 1 6.2 2.7A4 4 0 0 1 17 14.5zM7 17h10"/></symbol>
+    <symbol id="art-pot" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 28h44v14a12 12 0 0 1-12 12H22a12 12 0 0 1-12-12z"/><path d="M4 30h6M54 30h6M18 28c0-4 6-6 14-6s14 2 14 6M26 14c-2-3 2-5 0-8M32 14c-2-3 2-5 0-8M38 14c-2-3 2-5 0-8"/></symbol>
+    <symbol id="art-cup" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 24h34v14a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z"/><path d="M46 28h4a6 6 0 0 1 0 12h-5M8 58h44M24 16c-2-3 2-5 0-8M32 16c-2-3 2-5 0-8"/></symbol>
+    <symbol id="art-bowl" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 30h52a26 22 0 0 1-52 0zM22 52h20"/><path d="M18 30c2-6 7-9 14-9s12 3 14 9M30 21c0-5 4-8 9-9"/></symbol>
+    <symbol id="art-pan" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="26" cy="34" rx="20" ry="8"/><path d="M6 34v4c0 4.4 9 8 20 8s20-3.6 20-8v-4M46 34h14"/><ellipse cx="24" cy="32" rx="7" ry="3"/></symbol>
+    <symbol id="art-stack" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="44" rx="22" ry="6"/><path d="M10 44v-5c0 3.3 9.8 6 22 6s22-2.7 22-6v5M12 34c0 3.3 9 6 20 6s20-2.7 20-6-9-6-20-6-20 2.7-20 6zM30 28c0-6 4-8 4-14"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-9.3-9.2C1.4 8 3.4 4.5 7 4.5c2.1 0 3.6 1.2 5 3 1.4-1.8 2.9-3 5-3 3.6 0 5.6 3.5 4.3 6.8-1.8 4.6-9.3 9.2-9.3 9.2z"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9L2.4 17.5A2 2 0 0 0 4.1 20.5h15.8a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0zM12 9v4.5M12 17h.01"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2.5l2.2 10.5a1.5 1.5 0 0 0 1.5 1.2h8.6a1.5 1.5 0 0 0 1.5-1.1L21 8H6.4"/><circle cx="9.5" cy="19.5" r="1.4"/><circle cx="17.5" cy="19.5" r="1.4"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7.5 7.5L12 3l4.5 4.5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 9.5c.5 2.5 3.5 5.3 6 5.8l1.2-1.3-1.8-1-1 .8c-1-.4-2.3-1.6-2.7-2.7l.8-1-1-1.8z" stroke-width="1.4"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 20.5a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="art-flat" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="38" rx="25" ry="9"/><path d="M14 36c4-3 10 2 15-1s9 3 14 0 8 1 9 2M22 41c3 1 6-1 9 0M36 42c3 0 5-2 8-1"/><path d="M26 22c-2-3 2-5 0-8M34 22c-2-3 2-5 0-8"/></symbol>
+    <symbol id="art-glass" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 14h28l-4 40a4 4 0 0 1-4 3.6H26a4 4 0 0 1-4-3.6z"/><path d="M20 26h24M38 14l6-8h6"/></symbol>
+  </defs>
+</svg>
+
+<!-- ================= AUTH ================= -->
+<main id="auth" hidden>
+  <section class="pitch">
+    <div class="brand"><div class="brand-mark"><svg class="icon" style="width:28px;height:28px"><use href="#i-chef"/></svg></div><div class="brand-name">CookMate <span>AI</span></div></div>
+    <h1 data-i18n="heroTitle">Cook hands-free, <em>in your own language.</em></h1>
+    <p class="lead" data-i18n="heroLead">Ask for a recipe out loud. CookMate AI understands your request, reads every step in your preferred language, and suggests a swap when an ingredient is missing.</p>
+    <ul class="feature-list">
+      <li><svg class="icon"><use href="#i-check"/></svg><span data-i18n="f1">Voice commands: next, back, pause, repeat</span></li>
+      <li><svg class="icon"><use href="#i-check"/></svg><span data-i18n="f2">Recipes in English, हिन्दी and 18 more languages</span></li>
+      <li><svg class="icon"><use href="#i-check"/></svg><span data-i18n="f3">Step player with built-in cooking timers</span></li>
+      <li><svg class="icon"><use href="#i-check"/></svg><span data-i18n="f4">Smart ingredient substitutes</span></li>
+    </ul>
+    <div class="hello-strip" aria-label="Try saying"><span>"Make masala chai"</span><span>"पनीर बटर मसाला बनाओ"</span><span>"I don't have cream"</span><span>"Next step"</span></div>
+  </section>
+
+  <section class="auth-card" aria-label="Sign in">
+    <div class="tabs" role="tablist">
+      <button id="tab-login" role="tab" aria-selected="true" data-i18n="login">Log in</button>
+      <button id="tab-signup" role="tab" aria-selected="false" data-i18n="signup">Sign up</button>
+    </div>
+    <form id="auth-form" novalidate>
+      <div class="field" id="name-field" hidden>
+        <label for="f-name" data-i18n="fullName">Full name</label>
+        <input class="input" id="f-name" autocomplete="name" placeholder="Pratham Raval">
+      </div>
+      <div class="field">
+        <label for="f-email" data-i18n="email">Email</label>
+        <input class="input" id="f-email" type="email" autocomplete="email" placeholder="you@example.com">
+      </div>
+      <div class="field">
+        <label for="f-pass" data-i18n="password">Password</label>
+        <input class="input" id="f-pass" type="password" autocomplete="current-password" placeholder="••••••">
+      </div>
+      <div class="field">
+        <label for="f-lang" data-i18n="prefLang">Preferred language</label>
+        <select class="input" id="f-lang"></select>
+      </div>
+      <div class="form-error" id="auth-error" role="alert"></div>
+      <button class="btn primary" type="submit" id="auth-submit" data-i18n="login">Log in</button>
+    </form>
+    <div class="divider" data-i18n="or">or</div>
+    <button class="btn guest" id="guest-btn" data-i18n="guest">Continue as guest</button>
+    <p class="note" data-i18n="authNote">Sign in to sync favourites, shopping lists and history across your devices.</p>
+    <p class="note offline" id="offline-note" hidden><span data-i18n="offlineMode">Offline</span> · <button class="link-btn" id="server-btn" type="button" data-i18n="serverTitle">Server address</button></p>
+  </section>
+</main>
+
+<!-- ================= APP ================= -->
+<div id="app" hidden>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark" style="width:38px;height:38px"><svg class="icon" style="width:22px;height:22px"><use href="#i-chef"/></svg></div><div class="brand-name" style="font-size:1.25rem">CookMate <span>AI</span></div></div>
+    <nav class="main-nav" aria-label="Main">
+      <button class="nav-btn" id="nav-dash" data-view="dash" aria-current="page"><svg><use href="#i-grid"/></svg><span data-i18n="navDash">Home</span></button>
+      <button class="nav-btn" id="nav-kitchen" data-view="kitchen"><svg><use href="#i-pan"/></svg><span data-i18n="navKitchen">Kitchen</span></button>
+      <button class="nav-btn" id="nav-list" data-view="list"><span class="ic"><svg><use href="#i-cart"/></svg><span class="list-badge" hidden>0</span></span><span data-i18n="navList">List</span></button>
+      <button class="nav-btn only-mobile" id="nav-profile"><svg><use href="#i-user"/></svg><span data-i18n="navProfile">Profile</span></button>
+    </nav>
+    <div class="top-actions">
+      <button class="voice-pill" id="voice-pill" aria-pressed="false"><span class="dot"></span><span id="voice-pill-text">Voice off</span></button>
+      <div class="lang-pills" id="lang-pills" aria-label="Language"></div>
+      <button class="user-chip" id="avatar-btn" aria-label="Profile and settings"><span class="avatar" id="avatar">P</span><span id="user-name" class="uname">Pratham</span></button>
+    </div>
+  </header>
+
+  <main class="dash" id="dash">
+    <div class="dash-inner" id="dash-inner"></div>
+  </main>
+
+  <main class="dash" id="list" hidden>
+    <div class="dash-inner list-inner" id="list-inner"></div>
+  </main>
+
+  <div class="workspace" id="kitchen" hidden>
+    <aside class="assistant" aria-label="Voice assistant">
+      <div class="mic-zone">
+        <button class="mic" id="mic" aria-label="Start listening"><svg><use href="#i-mic"/></svg></button>
+        <div class="mic-status" id="mic-status" data-i18n="tapToSpeak">Tap the mic and speak</div>
+        <div class="interim" id="interim" aria-live="polite"></div>
+        <div class="handsfree"><button class="switch" id="handsfree" role="switch" aria-checked="true" aria-labelledby="hf-label"></button><span id="hf-label" data-i18n="handsFree">Hands-free mode (keep listening)</span></div>
+        <div class="banner" id="sr-banner" hidden></div>
+      </div>
+      <div class="chat" id="chat" aria-live="polite"></div>
+      <div class="composer">
+        <div class="examples" id="examples"></div>
+        <form id="cmd-form">
+          <input class="input" id="cmd" autocomplete="off" placeholder="Type a command…" data-i18n-ph="cmdPlaceholder" aria-label="Type a command">
+          <button class="btn primary send" aria-label="Send"><svg class="icon"><use href="#i-send"/></svg></button>
+        </form>
+      </div>
+    </aside>
+
+    <main class="stage" id="stage">
+      <div class="stage-inner" id="stage-inner"></div>
+    </main>
+  </div>
+
+  <div class="timer-tray" id="timer-tray" hidden aria-live="polite"></div>
+  <button class="mic-fab" id="mic-fab" aria-label="Voice"><svg><use href="#i-mic"/></svg></button>
+</div>
+
+<div class="modal-bg" id="lang-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="lm-title">
+    <h3 id="lm-title" data-i18n="addLangTitle">Add languages</h3>
+    <p class="muted" style="margin:0" data-i18n="addLangSub">Pick the languages you cook in. English and Hindi recipes are built in; others are translated live (internet needed).</p>
+    <div class="lang-grid" id="lang-grid"></div>
+    <div class="modal-actions">
+      <button class="btn" data-close="lang-modal" data-i18n="cancel">Cancel</button>
+      <button class="btn primary" id="lm-save" data-i18n="save">Save languages</button>
+    </div>
+  </div>
+</div>
+<div class="modal-bg" id="settings-modal" hidden>
+  <div class="modal sheet" role="dialog" aria-modal="true" aria-labelledby="st-title">
+    <div class="sheet-head"><h3 id="st-title" data-i18n="settingsTitle">Profile & settings</h3><button class="tbtn x" data-close="settings-modal" aria-label="Close">×</button></div>
+    <div id="settings-body"></div>
+    <div class="modal-actions">
+      <button class="btn" data-close="settings-modal" data-i18n="cancel">Cancel</button>
+      <button class="btn primary" id="settings-save" data-i18n="save">Save</button>
+    </div>
+  </div>
+</div>
+<div class="modal-bg" id="server-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="sv-title">
+    <h3 id="sv-title" data-i18n="serverTitle">Server address</h3>
+    <p class="muted" data-i18n="serverSub">For the phone app: your CookMate server.</p>
+    <input class="input" id="server-input" inputmode="url" autocomplete="off" placeholder="https://cookmate.example.com">
+    <div class="modal-actions" style="margin-top:1rem">
+      <button class="btn" data-close="server-modal" data-i18n="cancel">Cancel</button>
+      <button class="btn primary" id="server-save" data-i18n="save">Save</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+<script src="js/config.js"></script>
+<script src="js/native.js?v=2"></script>
+<script src="js/data.js?v=2"></script>
+<script src="js/i18n.js?v=2"></script>
+<script src="js/core.js?v=2"></script>
+<script src="js/voice.js?v=2"></script>
+<script src="js/kitchen.js?v=2"></script>
+<script src="js/lists.js?v=2"></script>
+<script src="js/main.js?v=2"></script>
+</body>
+</html>

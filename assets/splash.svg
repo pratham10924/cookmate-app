@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2732 2732">
+  <rect width="2732" height="2732" fill="#14110f"/>
+  <g transform="translate(1110 1060)">
+    <rect width="512" height="512" rx="112" fill="#f0a53a"/>
+    <g transform="translate(96 88) scale(13.33)" fill="none" stroke="#1a1209" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 14.5V20h10v-5.5M7 14.5a4 4 0 0 1-1.2-7.8A4.5 4.5 0 0 1 12 4a4.5 4.5 0 0 1 6.2 2.7A4 4 0 0 1 17 14.5zM7 17h10"/></g>
+  </g>
+  <text x="1366" y="1790" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="150" fill="#f6eee4">CookMate <tspan fill="#f0a53a">AI</tspan></text>
+</svg>

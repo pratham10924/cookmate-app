@@ -1,0 +1,33 @@
+{
+  "name": "cookmate-ai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CookMate AI: hands-free multilingual cooking assistant (web, PWA, Android and iOS app)",
+  "scripts": {
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test",
+    "build:data": "node server/scripts/build-data.js",
+    "app:assets": "capacitor-assets generate --android --ios --iconBackgroundColor '#d4831a' --splashBackgroundColor '#14110f' --splashBackgroundColorDark '#14110f'",
+    "app:sync": "cap sync",
+    "app:android": "cap sync android && cap open android",
+    "app:ios": "cap sync ios && cap open ios",
+    "app:apk": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor-community/keep-awake": "7.1.0",
+    "@capacitor-community/speech-recognition": "7.0.1",
+    "@capacitor-community/text-to-speech": "6.1.0",
+    "@capacitor/android": "7.6.9",
+    "@capacitor/app": "7.1.2",
+    "@capacitor/core": "7.6.9",
+    "@capacitor/ios": "7.6.9",
+    "@capacitor/local-notifications": "7.0.7",
+    "@capacitor/share": "7.0.4",
+    "@capacitor/splash-screen": "7.0.5",
+    "@capacitor/status-bar": "7.0.6"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "3.0.5",
+    "@capacitor/cli": "7.6.9"
+  }
+}

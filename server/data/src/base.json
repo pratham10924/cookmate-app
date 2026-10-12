@@ -1,0 +1,1847 @@
+{
+ "UNITS": {
+  "g": {
+   "en": "g",
+   "hi": "ग्राम"
+  },
+  "kg": {
+   "en": "kg",
+   "hi": "किलो"
+  },
+  "ml": {
+   "en": "ml",
+   "hi": "मि.ली."
+  },
+  "cup": {
+   "en": "cup",
+   "hi": "कप"
+  },
+  "tbsp": {
+   "en": "tbsp",
+   "hi": "बड़ा चम्मच"
+  },
+  "tsp": {
+   "en": "tsp",
+   "hi": "छोटा चम्मच"
+  },
+  "pc": {
+   "en": "",
+   "hi": ""
+  },
+  "pinch": {
+   "en": "pinch",
+   "hi": "चुटकी"
+  },
+  "taste": {
+   "en": "to taste",
+   "hi": "स्वादानुसार"
+  },
+  "sprig": {
+   "en": "sprig",
+   "hi": "टहनी"
+  },
+  "handful": {
+   "en": "handful",
+   "hi": "मुट्ठी"
+  }
+ },
+ "ING": {
+  "paneer": {
+   "en": "Paneer (cottage cheese)",
+   "hi": "पनीर",
+   "alias": [
+    "paneer",
+    "cottage cheese",
+    "पनीर"
+   ],
+   "sub": {
+    "en": "Firm tofu, or boiled potatoes / mushrooms cut into cubes",
+    "hi": "टोफू, या उबले आलू / मशरूम के टुकड़े"
+   }
+  },
+  "butter": {
+   "en": "Butter",
+   "hi": "मक्खन",
+   "alias": [
+    "butter",
+    "makhan",
+    "मक्खन",
+    "बटर"
+   ],
+   "sub": {
+    "en": "Ghee or any cooking oil in the same quantity",
+    "hi": "उतनी ही मात्रा में घी या कोई भी तेल"
+   }
+  },
+  "cream": {
+   "en": "Fresh cream",
+   "hi": "फ्रेश क्रीम",
+   "alias": [
+    "cream",
+    "malai",
+    "क्रीम",
+    "मलाई"
+   ],
+   "sub": {
+    "en": "10 cashews blended with ¼ cup milk, or 3 tbsp thick curd whisked smooth",
+    "hi": "10 काजू को ¼ कप दूध के साथ पीस लें, या 3 बड़े चम्मच गाढ़ा दही फेंट कर डालें"
+   }
+  },
+  "tomato": {
+   "en": "Tomatoes",
+   "hi": "टमाटर",
+   "alias": [
+    "tomato",
+    "tomatoes",
+    "tamatar",
+    "टमाटर"
+   ],
+   "sub": {
+    "en": "2 tbsp tomato purée per tomato, or 1 tsp tamarind pulp for sourness",
+    "hi": "हर टमाटर की जगह 2 बड़े चम्मच टमाटर प्यूरी, या खटास के लिए 1 छोटा चम्मच इमली का गूदा"
+   }
+  },
+  "onion": {
+   "en": "Onion",
+   "hi": "प्याज़",
+   "alias": [
+    "onion",
+    "onions",
+    "pyaz",
+    "pyaaz",
+    "kanda",
+    "प्याज",
+    "प्याज़"
+   ],
+   "sub": {
+    "en": "A pinch of hing (asafoetida) plus finely chopped cabbage for body",
+    "hi": "एक चुटकी हींग और बारीक कटी पत्ता गोभी"
+   }
+  },
+  "ginger_garlic": {
+   "en": "Ginger-garlic paste",
+   "hi": "अदरक-लहसुन पेस्ट",
+   "alias": [
+    "ginger garlic",
+    "ginger-garlic",
+    "adrak lahsun",
+    "अदरक लहसुन",
+    "अदरक-लहसुन"
+   ],
+   "sub": {
+    "en": "½ tsp dry ginger powder + ½ tsp garlic powder",
+    "hi": "½ छोटा चम्मच सोंठ + ½ छोटा चम्मच लहसुन पाउडर"
+   }
+  },
+  "kasuri_methi": {
+   "en": "Kasuri methi",
+   "hi": "कसूरी मेथी",
+   "alias": [
+    "kasuri methi",
+    "methi",
+    "fenugreek",
+    "कसूरी मेथी",
+    "मेथी"
+   ],
+   "sub": {
+    "en": "Dried mint leaves, or skip and add extra coriander",
+    "hi": "सूखा पुदीना, या छोड़ दें और ज़्यादा धनिया डालें"
+   }
+  },
+  "garam_masala": {
+   "en": "Garam masala",
+   "hi": "गरम मसाला",
+   "alias": [
+    "garam masala",
+    "गरम मसाला"
+   ],
+   "sub": {
+    "en": "A pinch each of cinnamon, clove and cardamom powder, or curry powder",
+    "hi": "दालचीनी, लौंग और इलायची पाउडर एक-एक चुटकी, या करी पाउडर"
+   }
+  },
+  "chilli_powder": {
+   "en": "Kashmiri red chilli powder",
+   "hi": "कश्मीरी लाल मिर्च पाउडर",
+   "alias": [
+    "chilli powder",
+    "chili powder",
+    "red chilli",
+    "lal mirch",
+    "लाल मिर्च"
+   ],
+   "sub": {
+    "en": "Paprika, or 1 chopped green chilli",
+    "hi": "पैपरिका, या 1 कटी हरी मिर्च"
+   }
+  },
+  "sugar": {
+   "en": "Sugar",
+   "hi": "चीनी",
+   "alias": [
+    "sugar",
+    "cheeni",
+    "chini",
+    "चीनी",
+    "शक्कर"
+   ],
+   "sub": {
+    "en": "Jaggery or honey (use a little less)",
+    "hi": "गुड़ या शहद (थोड़ा कम मात्रा में)"
+   }
+  },
+  "cashew": {
+   "en": "Cashews",
+   "hi": "काजू",
+   "alias": [
+    "cashew",
+    "cashews",
+    "kaju",
+    "काजू"
+   ],
+   "sub": {
+    "en": "Almonds or melon seeds, or skip and add 2 tbsp cream",
+    "hi": "बादाम या मगज़ के बीज, या छोड़कर 2 बड़े चम्मच क्रीम डालें"
+   }
+  },
+  "salt": {
+   "en": "Salt",
+   "hi": "नमक",
+   "alias": [
+    "salt",
+    "namak",
+    "नमक"
+   ],
+   "sub": {
+    "en": "Black salt (kala namak) or a dash of soy sauce",
+    "hi": "काला नमक या थोड़ा सोया सॉस"
+   }
+  },
+  "oil": {
+   "en": "Oil",
+   "hi": "तेल",
+   "alias": [
+    "oil",
+    "tel",
+    "तेल"
+   ],
+   "sub": {
+    "en": "Ghee or butter",
+    "hi": "घी या मक्खन"
+   }
+  },
+  "ghee": {
+   "en": "Ghee",
+   "hi": "घी",
+   "alias": [
+    "ghee",
+    "घी"
+   ],
+   "sub": {
+    "en": "Butter or any neutral oil",
+    "hi": "मक्खन या कोई भी तेल"
+   }
+  },
+  "tea": {
+   "en": "Tea leaves",
+   "hi": "चाय पत्ती",
+   "alias": [
+    "tea leaves",
+    "tea powder",
+    "chai patti",
+    "चाय पत्ती",
+    "चायपत्ती"
+   ],
+   "sub": {
+    "en": "1 tea bag per cup",
+    "hi": "हर कप के लिए 1 टी-बैग"
+   }
+  },
+  "milk": {
+   "en": "Milk",
+   "hi": "दूध",
+   "alias": [
+    "milk",
+    "doodh",
+    "dudh",
+    "दूध"
+   ],
+   "sub": {
+    "en": "Oat, soy or almond milk, or 2 tbsp milk powder in ½ cup water",
+    "hi": "ओट, सोया या बादाम दूध, या ½ कप पानी में 2 बड़े चम्मच मिल्क पाउडर"
+   }
+  },
+  "water": {
+   "en": "Water",
+   "hi": "पानी",
+   "alias": [
+    "water",
+    "pani",
+    "पानी"
+   ],
+   "sub": {
+    "en": "Vegetable stock adds more flavour",
+    "hi": "सब्ज़ी का स्टॉक और स्वाद देगा"
+   }
+  },
+  "ginger": {
+   "en": "Fresh ginger",
+   "hi": "अदरक",
+   "alias": [
+    "ginger",
+    "adrak",
+    "अदरक"
+   ],
+   "sub": {
+    "en": "¼ tsp dry ginger powder (saunth)",
+    "hi": "¼ छोटा चम्मच सोंठ"
+   }
+  },
+  "cardamom": {
+   "en": "Green cardamom",
+   "hi": "हरी इलायची",
+   "alias": [
+    "cardamom",
+    "elaichi",
+    "इलायची"
+   ],
+   "sub": {
+    "en": "A small pinch of cinnamon powder",
+    "hi": "एक छोटी चुटकी दालचीनी पाउडर"
+   }
+  },
+  "rice": {
+   "en": "Basmati rice",
+   "hi": "बासमती चावल",
+   "alias": [
+    "rice",
+    "chawal",
+    "basmati",
+    "चावल"
+   ],
+   "sub": {
+    "en": "Quinoa or broken wheat (dalia); adjust water and time",
+    "hi": "क्विनोआ या दलिया; पानी और समय बदलें"
+   }
+  },
+  "veg": {
+   "en": "Mixed vegetables (peas, carrot, beans)",
+   "hi": "मिक्स सब्ज़ियाँ (मटर, गाजर, बीन्स)",
+   "alias": [
+    "vegetables",
+    "veggies",
+    "peas",
+    "carrot",
+    "beans",
+    "sabzi",
+    "सब्ज़ी",
+    "सब्जी",
+    "मटर",
+    "गाजर"
+   ],
+   "sub": {
+    "en": "Any vegetable you have: potato, corn, capsicum or frozen peas",
+    "hi": "जो भी सब्ज़ी हो: आलू, मक्का, शिमला मिर्च या फ्रोज़न मटर"
+   }
+  },
+  "cumin": {
+   "en": "Cumin seeds",
+   "hi": "जीरा",
+   "alias": [
+    "cumin",
+    "jeera",
+    "zeera",
+    "जीरा"
+   ],
+   "sub": {
+    "en": "Cumin powder (half the amount) or fennel seeds",
+    "hi": "जीरा पाउडर (आधी मात्रा) या सौंफ"
+   }
+  },
+  "bay": {
+   "en": "Bay leaf",
+   "hi": "तेज पत्ता",
+   "alias": [
+    "bay leaf",
+    "tej patta",
+    "तेज पत्ता"
+   ],
+   "sub": {
+    "en": "Skip it, or add a small piece of cinnamon",
+    "hi": "छोड़ दें, या दालचीनी का छोटा टुकड़ा डालें"
+   }
+  },
+  "whole_spices": {
+   "en": "Whole spices (clove, cinnamon, peppercorn)",
+   "hi": "खड़े मसाले (लौंग, दालचीनी, काली मिर्च)",
+   "alias": [
+    "whole spices",
+    "clove",
+    "cinnamon",
+    "khade masale",
+    "लौंग",
+    "दालचीनी",
+    "खड़े मसाले"
+   ],
+   "sub": {
+    "en": "½ tsp garam masala added with the vegetables",
+    "hi": "सब्ज़ियों के साथ ½ छोटा चम्मच गरम मसाला"
+   }
+  },
+  "toor_dal": {
+   "en": "Toor dal (split pigeon peas)",
+   "hi": "अरहर / तूर दाल",
+   "alias": [
+    "toor dal",
+    "arhar",
+    "tuvar",
+    "dal",
+    "lentils",
+    "दाल",
+    "अरहर",
+    "तूर"
+   ],
+   "sub": {
+    "en": "Moong or masoor dal; they cook faster, so use 2 whistles",
+    "hi": "मूंग या मसूर दाल; ये जल्दी पकती हैं, 2 सीटी काफ़ी हैं"
+   }
+  },
+  "turmeric": {
+   "en": "Turmeric powder",
+   "hi": "हल्दी",
+   "alias": [
+    "turmeric",
+    "haldi",
+    "हल्दी"
+   ],
+   "sub": {
+    "en": "Skip it; it mainly adds colour. A few saffron strands also work",
+    "hi": "छोड़ सकते हैं; यह मुख्य रूप से रंग देती है। कुछ केसर के धागे भी चलेंगे"
+   }
+  },
+  "garlic": {
+   "en": "Garlic",
+   "hi": "लहसुन",
+   "alias": [
+    "garlic",
+    "lahsun",
+    "lehsun",
+    "लहसुन"
+   ],
+   "sub": {
+    "en": "¼ tsp garlic powder, or a pinch of hing",
+    "hi": "¼ छोटा चम्मच लहसुन पाउडर, या एक चुटकी हींग"
+   }
+  },
+  "green_chilli": {
+   "en": "Green chillies",
+   "hi": "हरी मिर्च",
+   "alias": [
+    "green chilli",
+    "green chillies",
+    "green chili",
+    "hari mirch",
+    "हरी मिर्च",
+    "मिर्च"
+   ],
+   "sub": {
+    "en": "Chilli flakes or a pinch of red chilli powder",
+    "hi": "चिली फ्लेक्स या एक चुटकी लाल मिर्च पाउडर"
+   }
+  },
+  "coriander": {
+   "en": "Fresh coriander",
+   "hi": "हरा धनिया",
+   "alias": [
+    "coriander",
+    "cilantro",
+    "dhaniya",
+    "dhania",
+    "धनिया"
+   ],
+   "sub": {
+    "en": "Mint leaves or spring-onion greens",
+    "hi": "पुदीना या हरे प्याज़ की पत्तियाँ"
+   }
+  },
+  "lemon": {
+   "en": "Lemon juice",
+   "hi": "नींबू का रस",
+   "alias": [
+    "lemon",
+    "lime",
+    "nimbu",
+    "नींबू"
+   ],
+   "sub": {
+    "en": "½ tsp amchur (dry mango powder) or 1 tsp vinegar",
+    "hi": "½ छोटा चम्मच अमचूर या 1 छोटा चम्मच सिरका"
+   }
+  },
+  "poha": {
+   "en": "Thick poha (flattened rice)",
+   "hi": "मोटा पोहा",
+   "alias": [
+    "poha",
+    "flattened rice",
+    "पोहा"
+   ],
+   "sub": {
+    "en": "Puffed rice (murmura) rinsed quickly, or make it as semolina upma",
+    "hi": "मुरमुरे जल्दी से धोकर, या सूजी का उपमा बना लें"
+   }
+  },
+  "mustard": {
+   "en": "Mustard seeds",
+   "hi": "राई",
+   "alias": [
+    "mustard",
+    "rai",
+    "sarson",
+    "राई",
+    "सरसों"
+   ],
+   "sub": {
+    "en": "Cumin seeds",
+    "hi": "जीरा"
+   }
+  },
+  "curry_leaves": {
+   "en": "Curry leaves",
+   "hi": "कड़ी पत्ता",
+   "alias": [
+    "curry leaves",
+    "kadi patta",
+    "kadhi patta",
+    "कड़ी पत्ता",
+    "करी पत्ता"
+   ],
+   "sub": {
+    "en": "Skip them, or add one bay leaf",
+    "hi": "छोड़ दें, या एक तेज पत्ता डालें"
+   }
+  },
+  "peanuts": {
+   "en": "Peanuts",
+   "hi": "मूंगफली",
+   "alias": [
+    "peanut",
+    "peanuts",
+    "moongfali",
+    "मूंगफली"
+   ],
+   "sub": {
+    "en": "Cashews or roasted chana",
+    "hi": "काजू या भुने चने"
+   }
+  },
+  "eggs": {
+   "en": "Eggs",
+   "hi": "अंडे",
+   "alias": [
+    "egg",
+    "eggs",
+    "anda",
+    "ande",
+    "अंडा",
+    "अंडे"
+   ],
+   "sub": {
+    "en": "For an egg-free version use besan batter (4 tbsp chickpea flour + water) and make a chilla",
+    "hi": "बिना अंडे के लिए बेसन का घोल (4 बड़े चम्मच बेसन + पानी) बनाकर चीला बनाएं"
+   }
+  },
+  "potato": {
+   "en": "Potatoes",
+   "hi": "आलू",
+   "alias": [
+    "potato",
+    "potatoes",
+    "aloo",
+    "alu",
+    "आलू"
+   ],
+   "sub": {
+    "en": "Sweet potato, raw banana or cauliflower florets",
+    "hi": "शकरकंद, कच्चा केला या फूलगोभी"
+   }
+  },
+  "pasta": {
+   "en": "Penne pasta",
+   "hi": "पेन्ने पास्ता",
+   "alias": [
+    "pasta",
+    "penne",
+    "macaroni",
+    "spaghetti",
+    "पास्ता"
+   ],
+   "sub": {
+    "en": "Any pasta shape, or wheat noodles",
+    "hi": "किसी भी आकार का पास्ता, या गेहूं के नूडल्स"
+   }
+  },
+  "olive_oil": {
+   "en": "Olive oil",
+   "hi": "ऑलिव ऑयल",
+   "alias": [
+    "olive oil",
+    "ऑलिव ऑयल"
+   ],
+   "sub": {
+    "en": "Any vegetable oil plus a small knob of butter",
+    "hi": "कोई भी तेल और थोड़ा मक्खन"
+   }
+  },
+  "basil": {
+   "en": "Fresh basil",
+   "hi": "तुलसी / बेसिल",
+   "alias": [
+    "basil",
+    "tulsi",
+    "तुलसी",
+    "बेसिल"
+   ],
+   "sub": {
+    "en": "1 tsp dried oregano or a few tulsi leaves",
+    "hi": "1 छोटा चम्मच सूखा ऑरिगैनो या कुछ तुलसी पत्ते"
+   }
+  },
+  "chilli_flakes": {
+   "en": "Chilli flakes",
+   "hi": "चिली फ्लेक्स",
+   "alias": [
+    "chilli flakes",
+    "chili flakes",
+    "चिली फ्लेक्स"
+   ],
+   "sub": {
+    "en": "A pinch of red chilli powder",
+    "hi": "एक चुटकी लाल मिर्च पाउडर"
+   }
+  },
+  "cheese": {
+   "en": "Grated cheese",
+   "hi": "कद्दूकस चीज़",
+   "alias": [
+    "cheese",
+    "parmesan",
+    "चीज़",
+    "चीज"
+   ],
+   "sub": {
+    "en": "Finely grated paneer with a pinch of salt",
+    "hi": "बारीक कद्दूकस पनीर और एक चुटकी नमक"
+   }
+  },
+  "flour": {
+   "en": "All-purpose flour (maida)",
+   "hi": "मैदा",
+   "alias": [
+    "flour",
+    "maida",
+    "मैदा",
+    "आटा"
+   ],
+   "sub": {
+    "en": "Whole-wheat atta (pancakes will be a little denser)",
+    "hi": "गेहूं का आटा (पैनकेक थोड़े भारी बनेंगे)"
+   }
+  },
+  "baking_powder": {
+   "en": "Baking powder",
+   "hi": "बेकिंग पाउडर",
+   "alias": [
+    "baking powder",
+    "बेकिंग पाउडर"
+   ],
+   "sub": {
+    "en": "¼ tsp baking soda + 1 tsp lemon juice",
+    "hi": "¼ छोटा चम्मच बेकिंग सोडा + 1 छोटा चम्मच नींबू रस"
+   }
+  },
+  "honey": {
+   "en": "Honey or maple syrup",
+   "hi": "शहद या मेपल सिरप",
+   "alias": [
+    "honey",
+    "maple",
+    "shahad",
+    "शहद"
+   ],
+   "sub": {
+    "en": "Jaggery syrup or sugar syrup",
+    "hi": "गुड़ की चाशनी या चीनी की चाशनी"
+   }
+  },
+  "vanilla": {
+   "en": "Vanilla essence",
+   "hi": "वनीला एसेंस",
+   "alias": [
+    "vanilla",
+    "वनीला"
+   ],
+   "sub": {
+    "en": "A pinch of cardamom or cinnamon powder",
+    "hi": "एक चुटकी इलायची या दालचीनी पाउडर"
+   }
+  },
+  "hing": {
+   "en": "Hing (asafoetida)",
+   "hi": "हींग",
+   "alias": [
+    "hing",
+    "asafoetida",
+    "हींग"
+   ],
+   "sub": {
+    "en": "Skip it, or add a little garlic",
+    "hi": "छोड़ दें, या थोड़ा लहसुन डालें"
+   }
+  },
+  "red_chilli": {
+   "en": "Dry red chillies",
+   "hi": "साबुत लाल मिर्च",
+   "alias": [
+    "dry red chilli",
+    "sabut lal mirch",
+    "साबुत लाल मिर्च"
+   ],
+   "sub": {
+    "en": "½ tsp chilli flakes",
+    "hi": "½ छोटा चम्मच चिली फ्लेक्स"
+   }
+  },
+  "coriander_powder": {
+   "en": "Coriander powder",
+   "hi": "धनिया पाउडर",
+   "alias": [
+    "coriander powder",
+    "dhaniya powder",
+    "धनिया पाउडर"
+   ],
+   "sub": {
+    "en": "Extra cumin powder",
+    "hi": "थोड़ा ज़्यादा जीरा पाउडर"
+   }
+  },
+  "amchur": {
+   "en": "Amchur (dry mango powder)",
+   "hi": "अमचूर",
+   "alias": [
+    "amchur",
+    "amchoor",
+    "अमचूर"
+   ],
+   "sub": {
+    "en": "A squeeze of lemon juice at the end",
+    "hi": "अंत में थोड़ा नींबू का रस"
+   }
+  }
+ },
+ "RECIPES": [
+  {
+   "id": "paneer-butter-masala",
+   "art": "pot",
+   "hue": "#b4472c",
+   "time": 35,
+   "serves": 3,
+   "level": {
+    "en": "Medium",
+    "hi": "मध्यम"
+   },
+   "diet": "veg",
+   "tags": [
+    "dinner",
+    "lunch",
+    "curry",
+    "punjabi",
+    "party"
+   ],
+   "alias": [
+    "paneer butter masala",
+    "paneer makhani",
+    "butter paneer",
+    "paneer masala",
+    "paneer curry",
+    "पनीर बटर मसाला",
+    "पनीर मखनी",
+    "पनीर"
+   ],
+   "title": {
+    "en": "Paneer Butter Masala",
+    "hi": "पनीर बटर मसाला"
+   },
+   "desc": {
+    "en": "Soft paneer cubes in a silky, mildly spiced tomato-cashew gravy finished with butter and cream.",
+    "hi": "टमाटर-काजू की मुलायम, हल्की मसालेदार ग्रेवी में पनीर, ऊपर से मक्खन और क्रीम।"
+   },
+   "ing": [
+    [
+     "paneer",
+     250,
+     "g"
+    ],
+    [
+     "tomato",
+     4,
+     "pc"
+    ],
+    [
+     "onion",
+     1,
+     "pc"
+    ],
+    [
+     "cashew",
+     12,
+     "pc"
+    ],
+    [
+     "butter",
+     3,
+     "tbsp"
+    ],
+    [
+     "ginger_garlic",
+     1,
+     "tbsp"
+    ],
+    [
+     "chilli_powder",
+     1.5,
+     "tsp"
+    ],
+    [
+     "garam_masala",
+     1,
+     "tsp"
+    ],
+    [
+     "kasuri_methi",
+     1,
+     "tsp"
+    ],
+    [
+     "sugar",
+     1,
+     "tsp"
+    ],
+    [
+     "cream",
+     4,
+     "tbsp"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Roughly chop the tomatoes and onion. Soak the cashews in hot water for 10 minutes.",
+     "hi": "टमाटर और प्याज़ को मोटा-मोटा काट लें। काजू को 10 मिनट गरम पानी में भिगो दें।",
+     "t": 600
+    },
+    {
+     "en": "Heat 1 tablespoon of butter in a pan. Add onion, tomatoes and drained cashews, and cook for 8 minutes until soft.",
+     "hi": "पैन में 1 बड़ा चम्मच मक्खन गरम करें। प्याज़, टमाटर और काजू डालकर 8 मिनट तक नरम होने तक पकाएं।",
+     "t": 480
+    },
+    {
+     "en": "Let the mixture cool slightly, then blend it into a smooth purée.",
+     "hi": "मिश्रण को थोड़ा ठंडा करें, फिर पीसकर चिकनी प्यूरी बना लें।"
+    },
+    {
+     "en": "Heat the remaining butter. Add ginger-garlic paste and sauté for 1 minute until the raw smell goes.",
+     "hi": "बचा हुआ मक्खन गरम करें। अदरक-लहसुन पेस्ट डालकर 1 मिनट तक भूनें जब तक कच्ची महक न चली जाए।",
+     "t": 60
+    },
+    {
+     "en": "Pour in the purée, add chilli powder, salt and sugar. Simmer for 6 minutes, stirring now and then.",
+     "hi": "प्यूरी डालें, लाल मिर्च, नमक और चीनी मिलाएं। बीच-बीच में चलाते हुए 6 मिनट धीमी आंच पर पकाएं।",
+     "t": 360
+    },
+    {
+     "en": "Add the paneer cubes, garam masala and crushed kasuri methi. Cook for 3 minutes.",
+     "hi": "पनीर के टुकड़े, गरम मसाला और मसली हुई कसूरी मेथी डालें। 3 मिनट पकाएं।",
+     "t": 180
+    },
+    {
+     "en": "Turn off the heat, stir in the cream and serve hot with naan or rice.",
+     "hi": "गैस बंद करें, क्रीम मिलाएं और नान या चावल के साथ गरमागरम परोसें।"
+    }
+   ],
+   "tip": {
+    "en": "Rub kasuri methi between your palms before adding; it releases more aroma.",
+    "hi": "कसूरी मेथी डालने से पहले हथेलियों में मसल लें, खुशबू ज़्यादा आती है।"
+   }
+  },
+  {
+   "id": "masala-chai",
+   "art": "cup",
+   "hue": "#8a5a2b",
+   "time": 10,
+   "serves": 2,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "veg",
+   "tags": [
+    "breakfast",
+    "drink",
+    "quick",
+    "tea",
+    "evening"
+   ],
+   "alias": [
+    "masala chai",
+    "chai",
+    "tea",
+    "adrak chai",
+    "ginger tea",
+    "मसाला चाय",
+    "चाय",
+    "अदरक वाली चाय"
+   ],
+   "title": {
+    "en": "Masala Chai",
+    "hi": "मसाला चाय"
+   },
+   "desc": {
+    "en": "Strong, milky Indian tea brewed with fresh ginger and cardamom.",
+    "hi": "अदरक और इलायची वाली कड़क, दूधवाली भारतीय चाय।"
+   },
+   "ing": [
+    [
+     "water",
+     1,
+     "cup"
+    ],
+    [
+     "milk",
+     1,
+     "cup"
+    ],
+    [
+     "tea",
+     2,
+     "tsp"
+    ],
+    [
+     "ginger",
+     1,
+     "pc"
+    ],
+    [
+     "cardamom",
+     2,
+     "pc"
+    ],
+    [
+     "sugar",
+     2,
+     "tsp"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Crush the ginger and cardamom lightly with a mortar or the back of a spoon.",
+     "hi": "अदरक और इलायची को खलबत्ते या चम्मच से हल्का कूट लें।"
+    },
+    {
+     "en": "Boil the water in a saucepan with the crushed ginger and cardamom for 2 minutes.",
+     "hi": "पानी में कुटा अदरक और इलायची डालकर 2 मिनट उबालें।",
+     "t": 120
+    },
+    {
+     "en": "Add the tea leaves and sugar, and boil for 1 minute until the colour turns deep.",
+     "hi": "चाय पत्ती और चीनी डालें, 1 मिनट उबालें जब तक रंग गहरा न हो जाए।",
+     "t": 60
+    },
+    {
+     "en": "Pour in the milk and bring it to a boil. Let it rise twice on medium heat, about 2 minutes.",
+     "hi": "दूध डालें और उबाल आने दें। मध्यम आंच पर दो बार उफान आने दें, लगभग 2 मिनट।",
+     "t": 120
+    },
+    {
+     "en": "Strain into cups and serve hot.",
+     "hi": "कप में छानकर गरमागरम परोसें।"
+    }
+   ],
+   "tip": {
+    "en": "For stronger chai, let it simmer one extra minute after adding milk.",
+    "hi": "कड़क चाय के लिए दूध डालने के बाद एक मिनट और पकाएं।"
+   }
+  },
+  {
+   "id": "veg-pulao",
+   "art": "bowl",
+   "hue": "#6f8a3a",
+   "time": 30,
+   "serves": 3,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "veg",
+   "tags": [
+    "lunch",
+    "dinner",
+    "rice",
+    "one-pot"
+   ],
+   "alias": [
+    "veg pulao",
+    "vegetable pulao",
+    "pulao",
+    "pulav",
+    "pulav rice",
+    "veg rice",
+    "rice",
+    "वेज पुलाव",
+    "पुलाव",
+    "चावल"
+   ],
+   "title": {
+    "en": "Vegetable Pulao",
+    "hi": "वेज पुलाव"
+   },
+   "desc": {
+    "en": "Fragrant one-pot basmati rice cooked with whole spices and garden vegetables.",
+    "hi": "खड़े मसालों और सब्ज़ियों के साथ एक ही बर्तन में बना खुशबूदार बासमती चावल।"
+   },
+   "ing": [
+    [
+     "rice",
+     1,
+     "cup"
+    ],
+    [
+     "veg",
+     1.5,
+     "cup"
+    ],
+    [
+     "onion",
+     1,
+     "pc"
+    ],
+    [
+     "ghee",
+     2,
+     "tbsp"
+    ],
+    [
+     "cumin",
+     1,
+     "tsp"
+    ],
+    [
+     "bay",
+     1,
+     "pc"
+    ],
+    [
+     "whole_spices",
+     1,
+     "tbsp"
+    ],
+    [
+     "ginger_garlic",
+     1,
+     "tsp"
+    ],
+    [
+     "green_chilli",
+     2,
+     "pc"
+    ],
+    [
+     "water",
+     2,
+     "cup"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Rinse the rice 2 to 3 times and soak it in water for 20 minutes. Drain well.",
+     "hi": "चावल को 2-3 बार धोकर 20 मिनट पानी में भिगो दें। अच्छे से पानी निकाल दें।",
+     "t": 1200
+    },
+    {
+     "en": "Heat ghee in a pot. Add cumin, bay leaf and whole spices and let them crackle for 30 seconds.",
+     "hi": "बर्तन में घी गरम करें। जीरा, तेज पत्ता और खड़े मसाले डालें और 30 सेकंड चटकने दें।",
+     "t": 30
+    },
+    {
+     "en": "Add sliced onion and slit green chillies. Fry for 3 minutes until light golden.",
+     "hi": "कटा प्याज़ और चीरी हुई हरी मिर्च डालें। 3 मिनट हल्का सुनहरा होने तक भूनें।",
+     "t": 180
+    },
+    {
+     "en": "Stir in ginger-garlic paste and the mixed vegetables. Cook for 2 minutes.",
+     "hi": "अदरक-लहसुन पेस्ट और सब्ज़ियाँ डालें। 2 मिनट पकाएं।",
+     "t": 120
+    },
+    {
+     "en": "Add the drained rice and fry gently for 1 minute without breaking the grains.",
+     "hi": "भीगे चावल डालें और दाने तोड़े बिना 1 मिनट हल्के हाथ से भूनें।",
+     "t": 60
+    },
+    {
+     "en": "Pour in 2 cups of water and add salt. Bring to a boil, then cover and cook on low heat for 12 minutes.",
+     "hi": "2 कप पानी और नमक डालें। उबाल आने पर ढककर धीमी आंच पर 12 मिनट पकाएं।",
+     "t": 720
+    },
+    {
+     "en": "Turn off the heat and rest for 5 minutes. Fluff with a fork and serve with raita.",
+     "hi": "गैस बंद करके 5 मिनट रहने दें। कांटे से हल्का चलाएं और रायते के साथ परोसें।",
+     "t": 300
+    }
+   ],
+   "tip": {
+    "en": "Soaking makes the grains long and separate.",
+    "hi": "भिगोने से दाने लंबे और खिले-खिले बनते हैं।"
+   }
+  },
+  {
+   "id": "dal-tadka",
+   "art": "pot",
+   "hue": "#c78a1e",
+   "time": 35,
+   "serves": 4,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "veg",
+   "tags": [
+    "lunch",
+    "dinner",
+    "healthy",
+    "protein",
+    "curry"
+   ],
+   "alias": [
+    "dal tadka",
+    "dal",
+    "daal",
+    "tadka dal",
+    "dal fry",
+    "yellow dal",
+    "lentil",
+    "दाल तड़का",
+    "दाल",
+    "दाल फ्राई"
+   ],
+   "title": {
+    "en": "Dal Tadka",
+    "hi": "दाल तड़का"
+   },
+   "desc": {
+    "en": "Comforting yellow lentils tempered with ghee, cumin, garlic and red chillies.",
+    "hi": "घी, जीरा, लहसुन और लाल मिर्च के तड़के वाली पीली दाल।"
+   },
+   "ing": [
+    [
+     "toor_dal",
+     1,
+     "cup"
+    ],
+    [
+     "water",
+     3,
+     "cup"
+    ],
+    [
+     "turmeric",
+     0.5,
+     "tsp"
+    ],
+    [
+     "onion",
+     1,
+     "pc"
+    ],
+    [
+     "tomato",
+     1,
+     "pc"
+    ],
+    [
+     "ghee",
+     2,
+     "tbsp"
+    ],
+    [
+     "cumin",
+     1,
+     "tsp"
+    ],
+    [
+     "garlic",
+     4,
+     "pc"
+    ],
+    [
+     "red_chilli",
+     2,
+     "pc"
+    ],
+    [
+     "hing",
+     1,
+     "pinch"
+    ],
+    [
+     "chilli_powder",
+     0.5,
+     "tsp"
+    ],
+    [
+     "coriander",
+     1,
+     "handful"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Rinse the dal well. Pressure-cook it with 3 cups of water, turmeric and salt for 4 whistles, about 12 minutes.",
+     "hi": "दाल को अच्छे से धो लें। 3 कप पानी, हल्दी और नमक के साथ कुकर में 4 सीटी, लगभग 12 मिनट पकाएं।",
+     "t": 720
+    },
+    {
+     "en": "Once the pressure drops, whisk the dal until smooth. Add water if it is too thick.",
+     "hi": "प्रेशर निकलने पर दाल को फेंट कर चिकना कर लें। गाढ़ी हो तो पानी मिलाएं।"
+    },
+    {
+     "en": "Heat 1 tablespoon of ghee. Sauté chopped onion for 3 minutes, then add tomato and cook for 3 more minutes.",
+     "hi": "1 बड़ा चम्मच घी गरम करें। कटा प्याज़ 3 मिनट भूनें, फिर टमाटर डालकर 3 मिनट और पकाएं।",
+     "t": 360
+    },
+    {
+     "en": "Add this to the dal and simmer for 5 minutes.",
+     "hi": "इसे दाल में मिलाएं और 5 मिनट धीमी आंच पर पकाएं।",
+     "t": 300
+    },
+    {
+     "en": "For the tadka, heat the remaining ghee. Add cumin, sliced garlic, dry red chillies and hing until the garlic turns golden.",
+     "hi": "तड़के के लिए बचा घी गरम करें। जीरा, कटा लहसुन, साबुत लाल मिर्च और हींग डालें, लहसुन सुनहरा होने तक।"
+    },
+    {
+     "en": "Turn off the heat, add chilli powder and immediately pour the tadka over the dal. Garnish with coriander.",
+     "hi": "गैस बंद करें, लाल मिर्च पाउडर डालें और तुरंत तड़का दाल पर डालें। धनिया से सजाएं।"
+    }
+   ],
+   "tip": {
+    "en": "Add chilli powder off the heat so it stays red and does not burn.",
+    "hi": "लाल मिर्च गैस बंद करके डालें ताकि रंग लाल रहे और जले नहीं।"
+   }
+  },
+  {
+   "id": "kanda-poha",
+   "art": "bowl",
+   "hue": "#d6a72c",
+   "time": 20,
+   "serves": 2,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "veg",
+   "tags": [
+    "breakfast",
+    "quick",
+    "maharashtrian",
+    "light"
+   ],
+   "alias": [
+    "poha",
+    "kanda poha",
+    "pohe",
+    "kande pohe",
+    "पोहा",
+    "कांदा पोहा",
+    "पोहे"
+   ],
+   "title": {
+    "en": "Kanda Poha",
+    "hi": "कांदा पोहा"
+   },
+   "desc": {
+    "en": "Maharashtra's favourite breakfast: flattened rice with onions, peanuts and curry leaves.",
+    "hi": "महाराष्ट्र का पसंदीदा नाश्ता: प्याज़, मूंगफली और कड़ी पत्ते वाला पोहा।"
+   },
+   "ing": [
+    [
+     "poha",
+     2,
+     "cup"
+    ],
+    [
+     "onion",
+     1,
+     "pc"
+    ],
+    [
+     "peanuts",
+     3,
+     "tbsp"
+    ],
+    [
+     "oil",
+     2,
+     "tbsp"
+    ],
+    [
+     "mustard",
+     1,
+     "tsp"
+    ],
+    [
+     "curry_leaves",
+     1,
+     "sprig"
+    ],
+    [
+     "green_chilli",
+     2,
+     "pc"
+    ],
+    [
+     "turmeric",
+     0.5,
+     "tsp"
+    ],
+    [
+     "sugar",
+     1,
+     "tsp"
+    ],
+    [
+     "lemon",
+     1,
+     "tbsp"
+    ],
+    [
+     "coriander",
+     1,
+     "handful"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Rinse the poha in a strainer under running water for 30 seconds. Add salt, sugar and turmeric, mix gently and keep aside.",
+     "hi": "पोहे को छलनी में 30 सेकंड बहते पानी में धो लें। नमक, चीनी और हल्दी मिलाकर अलग रख दें।",
+     "t": 30
+    },
+    {
+     "en": "Heat oil and roast the peanuts for 2 minutes until crunchy. Take them out.",
+     "hi": "तेल गरम करके मूंगफली 2 मिनट कुरकुरी होने तक भूनें। निकाल लें।",
+     "t": 120
+    },
+    {
+     "en": "In the same oil, add mustard seeds. When they splutter, add curry leaves and green chillies.",
+     "hi": "उसी तेल में राई डालें। चटकने पर कड़ी पत्ता और हरी मिर्च डालें।"
+    },
+    {
+     "en": "Add chopped onion and cook for 3 minutes until soft and translucent.",
+     "hi": "कटा प्याज़ डालकर 3 मिनट नरम और पारदर्शी होने तक पकाएं।",
+     "t": 180
+    },
+    {
+     "en": "Add the poha and peanuts, mix gently, cover and steam on low heat for 2 minutes.",
+     "hi": "पोहा और मूंगफली डालें, हल्के से मिलाएं, ढककर धीमी आंच पर 2 मिनट भाप में पकाएं।",
+     "t": 120
+    },
+    {
+     "en": "Finish with lemon juice and fresh coriander. Serve warm.",
+     "hi": "नींबू का रस और हरा धनिया डालें। गरम परोसें।"
+    }
+   ],
+   "tip": {
+    "en": "Do not soak poha; a quick rinse keeps it fluffy, not mushy.",
+    "hi": "पोहा भिगोएं नहीं; जल्दी धोने से वह खिला-खिला रहता है।"
+   }
+  },
+  {
+   "id": "masala-omelette",
+   "art": "pan",
+   "hue": "#c9952c",
+   "time": 10,
+   "serves": 1,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "egg",
+   "tags": [
+    "breakfast",
+    "quick",
+    "protein"
+   ],
+   "alias": [
+    "masala omelette",
+    "omelette",
+    "omelet",
+    "egg",
+    "anda",
+    "eggs",
+    "मसाला ऑमलेट",
+    "ऑमलेट",
+    "आमलेट",
+    "अंडा"
+   ],
+   "title": {
+    "en": "Masala Omelette",
+    "hi": "मसाला ऑमलेट"
+   },
+   "desc": {
+    "en": "A fluffy Indian-style omelette with onion, tomato, chilli and coriander.",
+    "hi": "प्याज़, टमाटर, मिर्च और धनिया वाला फूला हुआ देसी ऑमलेट।"
+   },
+   "ing": [
+    [
+     "eggs",
+     2,
+     "pc"
+    ],
+    [
+     "onion",
+     0.5,
+     "pc"
+    ],
+    [
+     "tomato",
+     0.5,
+     "pc"
+    ],
+    [
+     "green_chilli",
+     1,
+     "pc"
+    ],
+    [
+     "coriander",
+     1,
+     "tbsp"
+    ],
+    [
+     "turmeric",
+     1,
+     "pinch"
+    ],
+    [
+     "butter",
+     1,
+     "tbsp"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Finely chop the onion, tomato, green chilli and coriander.",
+     "hi": "प्याज़, टमाटर, हरी मिर्च और धनिया बारीक काट लें।"
+    },
+    {
+     "en": "Crack the eggs into a bowl, add salt and turmeric, and whisk for 30 seconds until frothy.",
+     "hi": "अंडे कटोरे में तोड़ें, नमक और हल्दी डालें, 30 सेकंड झागदार होने तक फेंटें।",
+     "t": 30
+    },
+    {
+     "en": "Mix the chopped vegetables into the eggs.",
+     "hi": "कटी सब्ज़ियाँ अंडों में मिला दें।"
+    },
+    {
+     "en": "Heat butter in a pan on medium heat. Pour in the egg mixture and spread it evenly.",
+     "hi": "पैन में मध्यम आंच पर मक्खन गरम करें। अंडे का मिश्रण डालकर बराबर फैलाएं।"
+    },
+    {
+     "en": "Cook for 2 minutes until the bottom is set, then flip and cook for 1 more minute.",
+     "hi": "2 मिनट तक नीचे से पकने दें, फिर पलटकर 1 मिनट और पकाएं।",
+     "t": 180
+    },
+    {
+     "en": "Fold and serve hot with buttered toast.",
+     "hi": "मोड़कर मक्खन लगे टोस्ट के साथ गरम परोसें।"
+    }
+   ],
+   "tip": {
+    "en": "Keep the heat at medium so the omelette stays soft inside.",
+    "hi": "आंच मध्यम रखें ताकि ऑमलेट अंदर से नरम रहे।"
+   }
+  },
+  {
+   "id": "tomato-basil-pasta",
+   "art": "bowl",
+   "hue": "#b5372a",
+   "time": 25,
+   "serves": 2,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "veg",
+   "tags": [
+    "dinner",
+    "lunch",
+    "italian",
+    "kids"
+   ],
+   "alias": [
+    "tomato basil pasta",
+    "pasta",
+    "arrabbiata",
+    "red sauce pasta",
+    "penne",
+    "पास्ता",
+    "रेड सॉस पास्ता"
+   ],
+   "title": {
+    "en": "Tomato Basil Pasta",
+    "hi": "टोमैटो बेसिल पास्ता"
+   },
+   "desc": {
+    "en": "Penne tossed in a quick garlicky tomato sauce with basil and a little heat.",
+    "hi": "लहसुन वाली टमाटर सॉस, बेसिल और हल्की तीखी पेन्ने पास्ता।"
+   },
+   "ing": [
+    [
+     "pasta",
+     200,
+     "g"
+    ],
+    [
+     "tomato",
+     4,
+     "pc"
+    ],
+    [
+     "garlic",
+     5,
+     "pc"
+    ],
+    [
+     "olive_oil",
+     3,
+     "tbsp"
+    ],
+    [
+     "chilli_flakes",
+     1,
+     "tsp"
+    ],
+    [
+     "basil",
+     1,
+     "handful"
+    ],
+    [
+     "sugar",
+     0.5,
+     "tsp"
+    ],
+    [
+     "cheese",
+     3,
+     "tbsp"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Boil a large pot of salted water and cook the pasta for 9 minutes until al dente. Save half a cup of pasta water.",
+     "hi": "बड़े बर्तन में नमक वाला पानी उबालें और पास्ता 9 मिनट पकाएं। आधा कप पास्ता का पानी बचा लें।",
+     "t": 540
+    },
+    {
+     "en": "Meanwhile, finely chop the tomatoes and slice the garlic.",
+     "hi": "इस बीच टमाटर बारीक काटें और लहसुन के पतले टुकड़े करें।"
+    },
+    {
+     "en": "Heat olive oil in a pan. Add garlic and chilli flakes and cook for 1 minute without browning.",
+     "hi": "पैन में ऑलिव ऑयल गरम करें। लहसुन और चिली फ्लेक्स डालें और 1 मिनट पकाएं, भूरा न होने दें।",
+     "t": 60
+    },
+    {
+     "en": "Add tomatoes, salt and sugar. Cook for 8 minutes until it becomes a thick sauce.",
+     "hi": "टमाटर, नमक और चीनी डालें। 8 मिनट गाढ़ी सॉस बनने तक पकाएं।",
+     "t": 480
+    },
+    {
+     "en": "Add the drained pasta and a splash of pasta water. Toss for 1 minute so the sauce coats the pasta.",
+     "hi": "पास्ता और थोड़ा पास्ता का पानी डालें। 1 मिनट मिलाएं ताकि सॉस पास्ता पर लिपट जाए।",
+     "t": 60
+    },
+    {
+     "en": "Tear in the basil, top with cheese and serve immediately.",
+     "hi": "बेसिल तोड़कर डालें, ऊपर चीज़ डालें और तुरंत परोसें।"
+    }
+   ],
+   "tip": {
+    "en": "Starchy pasta water makes the sauce glossy and helps it cling.",
+    "hi": "पास्ता का पानी सॉस को चमकदार और गाढ़ा बनाता है।"
+   }
+  },
+  {
+   "id": "jeera-aloo",
+   "art": "pan",
+   "hue": "#a7772a",
+   "time": 20,
+   "serves": 3,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "veg",
+   "tags": [
+    "lunch",
+    "dinner",
+    "quick",
+    "dry sabzi"
+   ],
+   "alias": [
+    "jeera aloo",
+    "jeera alu",
+    "aloo jeera",
+    "potato",
+    "aloo",
+    "cumin potatoes",
+    "जीरा आलू",
+    "आलू जीरा",
+    "आलू"
+   ],
+   "title": {
+    "en": "Jeera Aloo",
+    "hi": "जीरा आलू"
+   },
+   "desc": {
+    "en": "Boiled potatoes tossed with cumin, green chilli and dry spices. Ready in 20 minutes.",
+    "hi": "जीरा, हरी मिर्च और सूखे मसालों में भुने उबले आलू। 20 मिनट में तैयार।"
+   },
+   "ing": [
+    [
+     "potato",
+     4,
+     "pc"
+    ],
+    [
+     "oil",
+     2,
+     "tbsp"
+    ],
+    [
+     "cumin",
+     1.5,
+     "tsp"
+    ],
+    [
+     "green_chilli",
+     2,
+     "pc"
+    ],
+    [
+     "turmeric",
+     0.5,
+     "tsp"
+    ],
+    [
+     "coriander_powder",
+     1,
+     "tsp"
+    ],
+    [
+     "chilli_powder",
+     0.5,
+     "tsp"
+    ],
+    [
+     "amchur",
+     0.5,
+     "tsp"
+    ],
+    [
+     "coriander",
+     1,
+     "handful"
+    ],
+    [
+     "salt",
+     1,
+     "taste"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Boil the potatoes for 3 whistles or 15 minutes until just tender. Peel and cut into cubes.",
+     "hi": "आलू को 3 सीटी या 15 मिनट तक उबालें। छीलकर टुकड़ों में काट लें।",
+     "t": 900
+    },
+    {
+     "en": "Heat oil in a pan and add cumin seeds. Let them sizzle for 20 seconds.",
+     "hi": "पैन में तेल गरम करके जीरा डालें। 20 सेकंड चटकने दें।",
+     "t": 20
+    },
+    {
+     "en": "Add chopped green chillies, turmeric, coriander powder and chilli powder. Stir for a few seconds.",
+     "hi": "कटी हरी मिर्च, हल्दी, धनिया पाउडर और लाल मिर्च डालें। कुछ सेकंड चलाएं।"
+    },
+    {
+     "en": "Add the potatoes and salt, and toss well. Cook on medium heat for 5 minutes until the edges turn crisp.",
+     "hi": "आलू और नमक डालकर अच्छे से मिलाएं। मध्यम आंच पर 5 मिनट किनारे कुरकुरे होने तक पकाएं।",
+     "t": 300
+    },
+    {
+     "en": "Sprinkle amchur and coriander leaves. Serve with roti or dal.",
+     "hi": "अमचूर और हरा धनिया छिड़कें। रोटी या दाल के साथ परोसें।"
+    }
+   ],
+   "tip": {
+    "en": "Cool the boiled potatoes before cubing so they hold their shape.",
+    "hi": "उबले आलू ठंडे करके काटें ताकि टूटें नहीं।"
+   }
+  },
+  {
+   "id": "fluffy-pancakes",
+   "art": "stack",
+   "hue": "#b07a3a",
+   "time": 20,
+   "serves": 2,
+   "level": {
+    "en": "Easy",
+    "hi": "आसान"
+   },
+   "diet": "egg",
+   "tags": [
+    "breakfast",
+    "sweet",
+    "kids",
+    "dessert"
+   ],
+   "alias": [
+    "pancake",
+    "pancakes",
+    "fluffy pancakes",
+    "hotcakes",
+    "पैनकेक"
+   ],
+   "title": {
+    "en": "Fluffy Pancakes",
+    "hi": "फ्लफी पैनकेक"
+   },
+   "desc": {
+    "en": "Soft, golden breakfast pancakes served with honey or maple syrup.",
+    "hi": "शहद या मेपल सिरप के साथ नरम, सुनहरे पैनकेक।"
+   },
+   "ing": [
+    [
+     "flour",
+     1,
+     "cup"
+    ],
+    [
+     "milk",
+     0.75,
+     "cup"
+    ],
+    [
+     "eggs",
+     1,
+     "pc",
+     {
+      "en": "1 mashed ripe banana or 3 tbsp curd",
+      "hi": "1 मसला पका केला या 3 बड़े चम्मच दही"
+     }
+    ],
+    [
+     "sugar",
+     2,
+     "tbsp"
+    ],
+    [
+     "baking_powder",
+     2,
+     "tsp"
+    ],
+    [
+     "butter",
+     2,
+     "tbsp"
+    ],
+    [
+     "vanilla",
+     0.5,
+     "tsp"
+    ],
+    [
+     "salt",
+     1,
+     "pinch"
+    ],
+    [
+     "honey",
+     3,
+     "tbsp"
+    ]
+   ],
+   "steps": [
+    {
+     "en": "Whisk flour, sugar, baking powder and a pinch of salt in a bowl.",
+     "hi": "कटोरे में मैदा, चीनी, बेकिंग पाउडर और एक चुटकी नमक मिलाएं।"
+    },
+    {
+     "en": "In another bowl, whisk milk, egg, melted butter and vanilla.",
+     "hi": "दूसरे कटोरे में दूध, अंडा, पिघला मक्खन और वनीला फेंटें।"
+    },
+    {
+     "en": "Pour the wet mix into the dry mix and stir just until combined. A few lumps are fine. Rest for 5 minutes.",
+     "hi": "गीला मिश्रण सूखे में डालें और बस मिलने तक चलाएं। थोड़ी गांठें ठीक हैं। 5 मिनट रखें।",
+     "t": 300
+    },
+    {
+     "en": "Heat a non-stick pan on medium-low and brush it with butter.",
+     "hi": "नॉन-स्टिक पैन को मध्यम-धीमी आंच पर गरम करें और मक्खन लगाएं।"
+    },
+    {
+     "en": "Pour a quarter cup of batter. Cook for 2 minutes until bubbles appear, flip and cook for 1 more minute.",
+     "hi": "चौथाई कप घोल डालें। बुलबुले आने तक 2 मिनट पकाएं, पलटें और 1 मिनट और पकाएं।",
+     "t": 180
+    },
+    {
+     "en": "Stack the pancakes and drizzle with honey or maple syrup.",
+     "hi": "पैनकेक एक के ऊपर एक रखें और शहद या मेपल सिरप डालें।"
+    }
+   ],
+   "tip": {
+    "en": "Over-mixing makes pancakes tough; stop as soon as the flour disappears.",
+    "hi": "ज़्यादा फेंटने से पैनकेक सख्त होते हैं; सूखा आटा दिखना बंद होते ही रुक जाएं।"
+   }
+  }
+ ]
+}
